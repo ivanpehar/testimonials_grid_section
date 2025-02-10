@@ -29,6 +29,11 @@ body {
     padding: 26px 32px 32px 32px;
     box-shadow: 40px 60px 50px -47px rgb(72, 65, 106, 0.25);
     position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonials__card:hover {
+    transform: translateY(-10px);
 }
 
 .testimonials__card--purple {
